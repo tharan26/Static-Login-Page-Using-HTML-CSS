@@ -1,0 +1,103 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.image img{
+    height: 900px;
+    width: 700px;
+    padding-top: 30px;
+    margin-left: 10%;
+    position: relative;
+}
+
+.image h1{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 10%;
+    color: blue;
+    font-size: 100px;
+}
+
+.image pre{
+    position: absolute;
+    z-index: 1;
+    top: 23%;
+    left: 6%;
+    font-size: 15px;
+    font-weight: bolder;
+    color: orangered;
+}
+
+.whole{
+    display: flex;
+}
+
+.form{
+    margin-left: 15%;
+    margin-top: 10%;
+}
+
+.form h1{
+    font-size: 80px;
+}
+
+.form h1,p{
+    text-align: center;
+    color: lightskyblue;
+}
+
+.form input{
+    margin-top: 40px;
+    width: 300px;
+    border: 2px solid;
+    border-color: lightskyblue;
+    border-radius: 10px;
+}
+
+.pass{
+    margin-top: 10px;
+    padding-left: 150px;
+}
+
+.sign1{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+
+}
+
+.sign1::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #000;
+    left: 0;
+    top: 2rem;
+    position: absolute;
+}
+
+.sign1::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: #000;
+    right: 0;
+    top: 2rem;
+    position: absolute;
+}
+.icon
+{
+    font-size: xx-large;
+    text-align: center;
+    padding-top: 20px;
+    color: #89CFF0;
+    cursor: pointer;
+}
+
+.signup{
+    text-align: center;
+    padding-top: 15px;
+}
